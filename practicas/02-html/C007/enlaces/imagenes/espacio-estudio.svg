@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Espacio de estudio preparado</title>
+  <desc id="desc">Un escritorio con portátil, cuaderno, lápiz y vaso de agua.</desc>
+  <rect width="640" height="360" fill="#edf4f6"/>
+  <rect x="48" y="238" width="544" height="28" rx="8" fill="#8b5e3c"/>
+  <rect x="94" y="266" width="24" height="70" fill="#66442d"/>
+  <rect x="522" y="266" width="24" height="70" fill="#66442d"/>
+  <rect x="190" y="82" width="260" height="150" rx="10" fill="#334155"/>
+  <rect x="207" y="99" width="226" height="116" fill="#cdebf2"/>
+  <rect x="165" y="230" width="310" height="12" rx="6" fill="#64748b"/>
+  <rect x="70" y="184" width="92" height="52" rx="4" fill="#fff7d6"/>
+  <line x1="76" y1="198" x2="152" y2="198" stroke="#94a3b8" stroke-width="3"/>
+  <line x1="76" y1="210" x2="142" y2="210" stroke="#94a3b8" stroke-width="3"/>
+  <path d="M500 170h54l-8 66h-38z" fill="#9bd3e0"/>
+</svg>
