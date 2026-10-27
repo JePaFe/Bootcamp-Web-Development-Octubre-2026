@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblioteca del barrio</title>
+  </head>
+  <body>
+    <header><p>Biblioteca del barrio</p></header>
+
+    <nav><a href="#solicitud">Solicitar aviso de disponibilidad</a></nav>
+
+    <main>
+      <h1>Biblioteca del barrio</h1>
+      <p>
+        Prototipo de práctica: no envía ni guarda datos ni solicitudes. Usá solo
+        datos ficticios.
+      </p>
+
+      <section>
+        <h2>Catálogo</h2>
+        <p>Rutas del sur — Ana Vega</p>
+        <p>Historias del río — Leo Paz</p>
+      </section>
+
+      <section>
+        <h2>Búsqueda</h2>
+
+        <form>
+          <div>
+            <label for="busqueda">Título o autor</label>
+            <input type="text" id="busqueda" name="busqueda" />
+          </div>
+
+          <div>
+            <label for="codigo">Código de biblioteca (opcional)</label>
+            <input
+              type="text"
+              id="codigo"
+              name="codigo"
+              pattern="[0-9]{4}-[A-Z]"
+              title="Formato: 0042-A"
+            />
+          </div>
+
+          <button type="submit">Probar búsqueda</button>
+        </form>
+      </section>
+
+      <section id="solicitud">
+        <h2>Solicitar aviso de disponibilidad</h2>
+        <p>
+          Pedí que te avisen por correo cuando el libro esté disponible. No se
+          agrega un título al catálogo.
+        </p>
+
+        <form>
+          <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" />
+          </div>
+
+          <div>
+            <label for="correo">Correo para el aviso</label>
+            <input type="email" id="correo" name="correo" />
+          </div>
+
+          <div>
+            <label for="titulo">Título del libro</label>
+            <input type="text" id="titulo" name="titulo" />
+          </div>
+
+          <button type="button">Probar solicitud</button>
+        </form>
+      </section>
+    </main>
+
+    <footer><p>Biblioteca del barrio — práctica HTML</p></footer>
+  </body>
+</html>

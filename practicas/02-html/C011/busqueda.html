@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar libros</title>
+</head>
+<body>
+    <main>
+        <h1>Buscar libros</h1>
+        <p>Prototipo de práctica: no envía ni guarda datos. Usá solo datos ficticios.</p>
+
+        <ul>
+            <li>0042-A - Rutas del sur — Ana Vega</li>
+            <li>0042-B - Historias del río — Leo Paz</li>
+        </ul>
+
+        <form>
+            <div>
+                <label for="busqueda">Título o autor</label>
+                <input type="text" id="busqueda" name="busqueda" />
+            </div>
+
+            <div>
+                <label for="codigo">Código de biblioteca (opcional)</label>
+                <input type="text" id="codigo" name="codigo" pattern="[0-9]{4}-[A-Z]" title="Formato: 0042-A" />
+            </div>
+
+            <button type="submit">Probar búsqueda</button>
+        </form>
+    </main>
+</body>
+</html>
