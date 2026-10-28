@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aviso de biblioteca</title>
+  </head>
+  <body>
+    <main>
+      <h1>Aviso de biblioteca</h1>
+      <p>
+        Prototipo de práctica con datos ficticios. No registra inscripciones ni
+        guarda datos. Antes de validar, el botón no envía; al probar validación,
+        los datos pueden aparecer en la URL local.
+      </p>
+      <form>
+        <div>
+          <label for="aviso-nombre">Nombre</label>
+          <input type="text" id="aviso-nombre" name="aviso_nombre" />
+        </div>
+
+        <div>
+          <label for="correo-aviso">Correo para el aviso</label>
+          <input type="email" id="correo-aviso" name="aviso_correo" />
+        </div>
+        
+        <div>
+          <label for="aviso-titulo">Título del libro</label>
+          <input type="text" id="aviso-titulo" name="aviso_titulo" />
+        </div>
+        <button type="button">Probar solicitud</button>
+      </form>
+      <p id="prueba">
+        Prueba local: llegar aquí no confirma recepción ni almacenamiento.
+      </p>
+    </main>
+  </body>
+</html>

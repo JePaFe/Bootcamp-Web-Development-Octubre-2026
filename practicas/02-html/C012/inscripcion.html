@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inscripción a talleres</title>
+  </head>
+  <body>
+    <main>
+      <h1>Inscripción a talleres</h1>
+      <p>
+        Prototipo de práctica con datos ficticios. No registra inscripciones ni
+        guarda datos. Antes de validar, el botón no envía; al probar validación,
+        los datos pueden aparecer en la URL local.
+      </p>
+      <form>
+        
+        <fieldset>
+          <legend>Datos de contacto</legend>
+
+          <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" />
+          </div>
+          <div>
+            <label for="correo">Correo</label>
+            <input type="email" id="correo" name="correo" />
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Taller</legend>
+
+          <div>
+            <label for="taller">Taller</label>
+            <select name="taller" id="taller">
+              <option value="" disabled selected>Elegí un taller</option>
+              <option value="html">HTML inicial</option>
+              <option value="git">Git básico</option>
+            </select>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Modalidad de cursada (una opción)</legend>
+
+          <div>
+            <label for="presencial">Presencial</label>
+            <input
+              type="radio"
+              name="modalidad"
+              id="presencial"
+              value="presencial"
+            />
+          </div>
+
+          <div>
+            <label for="online">Online</label>
+            <input type="radio" name="modalidad" id="online" value="online" />
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Intereses (opcionales; podés elegir varios)</legend>
+
+          <div>
+            <label for="accesibilidad">Accesibilidad</label>
+            <input
+              type="checkbox"
+              name="intereses"
+              id="accesibilidad"
+              value="accesibilidad"
+            />
+
+            <label for="maquetacion">Maquetación</label>
+            <input
+              type="checkbox"
+              name="intereses"
+              id="maquetacion"
+              value="maquetacion"
+            />
+          </div>
+        </fieldset>
+
+        <button type="submit">Probar inscripción</button>
+      </form>
+      <p id="prueba">
+        Prueba local: llegar aquí no confirma recepción ni almacenamiento.
+      </p>
+    </main>
+  </body>
+</html>

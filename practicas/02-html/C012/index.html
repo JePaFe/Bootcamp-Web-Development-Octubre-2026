@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <main>
+      <h1>Formularios</h1>
+
+      <section>
+        <h2>Productos</h2>
+        <ul>
+          <li>Producto 1</li>
+          <li>Producto 2</li>
+          <li>Producto 3</li>
+        </ul>
+      </section>
+
+      <form action="#prueba" method="get">
+        <div>
+          <label for="edad">Edad</label>
+          <input
+            type="number"
+            id="edad"
+            name="edad"
+            min="13"
+            max="120"
+            step="1"
+          />
+        </div>
+
+        <div>
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required minlength="3" />
+        </div>
+
+        <div>
+          <label for="correo">Correo</label>
+          <input type="email" id="correo" name="correo" maxlength="50" />
+        </div>
+
+        <div>
+          <label for="mensaje">Mensaje</label>
+          <textarea
+            name="mensaje"
+            id="mensaje"
+            rows="4"
+            cols="80"
+            maxlength="100"
+          ></textarea>
+        </div>
+
+        <div>
+          <label for="turno">Turno del taller</label>
+          <select name="turno" id="turno">
+            <option value="" disabled selected>Seleccioná un turno</option>
+            <option value="mañana">Mañana</option>
+            <option value="tarde">Tarde</option>
+            <option value="noche">Noche</option>
+          </select>
+        </div>
+
+        <h2>Modalidad</h2>
+
+        <div>
+          <label for="presencial">Presencial</label>
+          <input
+            type="radio"
+            name="modalidad"
+            id="presencial"
+            value="presencial"
+          />
+        </div>
+
+        <div>
+          <label for="online">Online</label>
+          <input type="radio" name="modalidad" id="online" value="online" />
+        </div>
+
+        <fieldset>
+          <legend>Opciones</legend>
+
+          <div>
+            <label for="opcion1">Opción 1</label>
+            <input type="radio" name="opciones" id="opcion1" value="opcion1" />
+
+            <label for="opcion2">Opción 2</label>
+            <input type="radio" name="opciones" id="opcion2" value="opcion2" />
+
+            <label for="opcion3">Opción 3</label>
+            <input type="radio" name="opciones" id="opcion3" value="opcion3" />
+          </div>
+        </fieldset>
+
+        <h2>Extras</h2>
+        <div>
+          <label for="extra1">Extra 1</label>
+          <input type="checkbox" name="extras" id="extra1" value="extra1" />
+
+          <label for="extra2">Extra 2</label>
+          <input type="checkbox" name="extras" id="extra2" value="extra2" />
+
+          <label for="extra3">Extra 3</label>
+          <input type="checkbox" name="extras" id="extra3" value="extra3" />
+        </div>
+
+        <fieldset>
+          <legend>Direccion</legend>
+
+          <div>
+            <label for="calle">Calle y numero</label>
+            <input type="text" name="calle" id="calle" />
+          </div>
+          <div>
+            <label for="ciudad">Ciudad</label>
+            <input type="text" name="ciudad" id="ciudad" />
+          </div>
+          <div>
+            <label for="codigo-postal">Código Postal</label>
+            <input type="number" name="codigo_postal" id="codigo-postal" />
+          </div>
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+      </form>
+
+      <p id="prueba">
+        Prueba local: llegar aquí no confirma recepción ni almacenamiento.
+      </p>
+    </main>
+  </body>
+</html>
