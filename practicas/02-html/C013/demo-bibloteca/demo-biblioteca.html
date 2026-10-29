@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Préstamos de biblioteca</title>
+    <style>
+      main {
+        margin-top: 200vh;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body>
+    <header><p>Biblioteca del muelle</p></header>
+
+    <nav>
+      <ul>
+        <li><a href="catalogo.html">Catálogo</a></li>
+        <li><a href="#titulo-libro">El principito</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1>Préstamos</h1>
+      <section>
+        <h2 id="titulo-libro">El principito</h2>
+        <p>Autor: Antoine de Saint-Exupéry</p>
+      </section>
+      <section>
+        <h2>Condiciones</h2>
+        <p>Préstamos de siete días.</p>
+      </section>
+      <form action="#prueba" method="get">
+        <label for="libro">Título del libro (obligatorio)</label>
+        <input
+          type="text"
+          id="libro"
+          name="libro"
+          required
+          minlength="3"
+          maxlength="100"
+        />
+        <label for="ejemplares">Ejemplares (de 1 a 3)</label>
+        <input
+          type="number"
+          id="ejemplares"
+          name="ejemplares"
+          min="1"
+          max="3"
+          step="1"
+          required
+        />
+        <button type="submit">Probar préstamo</button>
+      </form>
+      <p id="prueba">Prueba local sin préstamos reales.</p>
+
+      <table>
+        <caption>
+          Plazos
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Material</th>
+            <th scope="col">Días</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Revistas</td>
+            <td>7</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+
+    <a href="#">Ir al inicio</a>
+  </body>
+</html>

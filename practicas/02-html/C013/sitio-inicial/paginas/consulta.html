@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Consultar por un taller — Centro de oficios</title>
+  </head>
+  <body>
+    <header><p>Centro de oficios del barrio</p></header>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="agenda.html">Agenda de talleres</a></li>
+        <li><a href="consulta.html">Consultar por un taller</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Consultar por un taller</h1>
+      <section>
+        <h2 id="indicaciones-consulta">Indicaciones de la consulta</h2>
+        <p>
+          Prototipo de práctica: no envía consultas reales ni guarda datos. Usá
+          solo datos ficticios.
+        </p>
+      </section>
+      <form action="#prueba" method="get">
+        <fieldset>
+          <legend>Contacto</legend>
+          <div>
+            <label for="nombre"
+              >Nombre (obligatorio, de 2 a 60 caracteres)</label
+            >
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              required
+              minlength="2"
+              maxlength="60"
+            />
+          </div>
+          <div>
+            <label for="email">Correo (obligatorio)</label>
+            <input type="email" id="email" name="correo" required />
+          </div>
+        </fieldset>
+        <div>
+          <label for="taller">Taller (obligatorio)</label>
+          <select id="taller" name="taller" required>
+            <option value="" disabled selected>Elegí un taller</option>
+            <option value="reparacion">Reparación</option>
+            <option value="huerta">Huerta</option>
+          </select>
+        </div>
+        <fieldset>
+          <legend>Respuesta preferida (una opción, obligatoria)</legend>
+          <div>
+            <label for="manana">Mañana</label
+            ><input
+              type="radio"
+              id="manana"
+              name="respuesta"
+              value="manana"
+              required
+            />
+          </div>
+          <div>
+            <label for="tarde">Tarde</label
+            ><input type="radio" id="tarde" name="respuesta" value="tarde" />
+          </div>
+        </fieldset>
+        <div>
+          <label for="recordatorio">Quiero un recordatorio (opcional)</label>
+          <input
+            type="checkbox"
+            id="recordatorio"
+            name="recordatorio"
+            value="si"
+          />
+        </div>
+        <div>
+          <label for="mensaje">Mensaje (opcional, máximo 120 caracteres)</label>
+          <textarea
+            id="mensaje"
+            name="mensaje"
+            rows="4"
+            maxlength="120"
+          ></textarea>
+        </div>
+        <button type="submit">Probar consulta</button>
+      </form>
+      <p id="prueba">Fin de la prueba local. No confirma recepción.</p>
+    </main>
+    <footer><p>Centro de oficios — sitio de práctica</p></footer>
+  </body>
+</html>
