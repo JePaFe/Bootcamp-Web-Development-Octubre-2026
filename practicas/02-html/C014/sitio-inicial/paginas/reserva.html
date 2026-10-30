@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Reserva de turno — Libros en ronda</title>
+  </head>
+  <body>
+    <header><p>Libros en ronda</p></header>
+    <nav>
+      <a href="../index.html">Inicio</a> · 
+      <a href="reserva.html">Reserva</a> ·
+      <a href="catalog.html">Catálogo</a>
+    </nav>
+    <main>
+      <h1>Reserva de turno</h1>
+      <section>
+        <h2 id="indicaciones-reserva">Indicaciones para reservar</h2>
+        <p>
+          Prototipo local: no guarda reservas. Usá solo datos ficticios. Nombre
+          y Correo son obligatorios. Nombre admite de 2 a 60 caracteres.
+        </p>
+      </section>
+      <form action="#prueba" method="get">
+        <fieldset>
+          <legend>Contacto</legend>
+          <div>
+            <label for="nombre">Nombre</label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              required
+              minlength="2"
+              maxlength="60"
+            />
+          </div>
+          <div>
+            <label for="correo">Correo</label>
+            <input type="email" id="correo" name="correo" required />
+          </div>
+        </fieldset>
+      
+        <div>
+          <label for="turno">Turno (obligatorio)</label>
+          <select id="turno" name="turno" required>
+            <option value="">Elegí un turno</option>
+            <option value="manana">Mañana</option>
+            <option value="tarde">Tarde</option>
+          </select>
+        </div>
+        
+        <button type="submit">Probar reserva</button>
+      </form>
+      <p id="prueba">Fin de prueba local; no confirma recepción.</p>
+      <a href="../index.html#horarios">Volver a los horarios</a>
+    </main>
+    <footer><p>Práctica HTML con datos ficticios.</p></footer>
+  </body>
+</html>
