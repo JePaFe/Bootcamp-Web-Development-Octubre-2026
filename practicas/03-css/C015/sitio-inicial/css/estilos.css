@@ -1,0 +1,41 @@
+/* Escribí aquí las reglas de C015. */
+body {
+  background-color: #fff8e7;
+}
+
+h1 {
+  color: #173b61;
+}
+
+h2 {
+  color: #5c285b;
+}
+
+.aviso {
+  background-color: #dff4ef;
+}
+
+#horarios {
+  text-decoration: underline;
+}
+
+nav a {
+  color: #173b61;
+}
+
+article p {
+  font-style: italic;
+}
+
+.datos-libro {
+  font-weight: bold;
+}
+
+button {
+  background-color: #173b61;
+  color: #ffffff;
+}
+
+footer p {
+  font-style: italic;
+}

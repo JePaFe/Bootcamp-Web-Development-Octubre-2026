@@ -1,0 +1,33 @@
+body {
+  background-color: #edf7ff;
+}
+
+h1 {
+  color: #4c2867;
+  font-weight: bold;
+}
+
+.estreno {
+  background-color: #ffedaa;
+}
+
+.texto-italico {
+  font-style: italic;
+}
+
+.texto-negrita {
+  font-weight: bold;
+}
+
+#programa {
+  text-decoration: underline;
+}
+
+nav a {
+  color: #17472b;
+}
+
+footer a {
+  font-style: italic;
+  font-weight: bold;
+}
