@@ -1,0 +1,14 @@
+body { background-color: #fff8e7; }
+h1 { color: #173b61; }
+h2 { color: #5c285b; }
+
+/* Regla conservada de la antigua campaña de inscripción. */
+button { background-color: #5c285b; color: #ffffff; }
+.inscripcion { background-color: #173b61; }
+
+/* Presentación de la descripción del programa. */
+/* .programa p { font-style: italic; } */
+.sinopsis { font-style: italic; }
+
+/* El horario antes estaba dentro del artículo del programa. */
+.horario { background-color: #ffedaa; }

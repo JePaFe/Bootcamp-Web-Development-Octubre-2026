@@ -1,0 +1,31 @@
+/* Etapa 1: una hoja externa compartida */
+body { background-color: #fff8e7; }
+h1 { color: #173b61; }
+
+/* Etapa 2: selección por función */
+h2 { color: #5c285b; }
+.aviso { background-color: #ffedaa; }
+#horarios { text-decoration: underline; }
+
+/* Etapa 3: selección dentro de una región */
+nav a { color: #173b61; }
+article p { font-style: italic; }
+
+/* Etapa 4: distinguir funciones sin cambiar la estructura */
+.datos-libro { font-weight: bold; }
+button { background-color: #173b61; color: #ffffff; }
+
+/* C016: conflictos preparados; resolver por etapas */
+/* .aviso { background-color: #dff4ef; } */
+
+/* Cambiaba el color del h2 con id "patio" */
+/* #patio { color: #173b61; } */
+
+footer { color: #173b61; font-style: italic; }
+/* footer p { color: #5c285b; } */
+
+/* pseudoclases */
+nav a:hover { color: #5c285b; background-color: #ffedaa; }
+
+nav a:focus-visible { background-color: #ffedaa; }
+button:focus-visible { background-color: #5c285b; }

@@ -1,0 +1,19 @@
+body { background-color: #fff8e7; }
+h1 { color: #173b61; }
+
+.estreno { background-color: red; }
+/* Prueba de Cascada */
+/* .estreno { background-color: green; } */
+
+h2 { color: #5c285b; }
+#programa { color: #173b61; }
+
+/* #historias { color: #21c24e; } */
+
+footer { color: #173b61; font-style: italic; }
+/* footer p { color: #5c285b; } */
+nav a { color:red; }
+nav a:hover { color: blue; }
+nav a:focus-visible { background-color: #ffedaa; }
+button { background-color: #173b61; color: #ffffff; }
+button:focus-visible { background-color: #5c285b; }
