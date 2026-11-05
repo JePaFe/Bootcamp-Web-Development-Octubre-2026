@@ -1,0 +1,46 @@
+:root {
+  --tinta: snow;
+  --fondo: green;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  /* color: var(--tinta); */
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+.turno {
+  color: var(--tinta);
+  background-color: var(--fondo, red);
+  line-height: 1.2;
+  width: 100%;
+}
+
+.sede {
+  font-size: 90%;
+}
+
+a {
+  color: var(--tinta);
+}
+
+/* .turno p {
+  font-size: 1.5rem;
+}
+
+.turno span {
+  font-size: 1.5rem;
+} */
+
+.fijo {
+  font-size: 16px;
+}
+
+.relativo {
+  font-size: 1rem;
+}
