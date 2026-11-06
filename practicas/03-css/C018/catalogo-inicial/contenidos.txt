@@ -1,0 +1,26 @@
+CONTENIDO PARA CONSTRUIR EL CATÁLOGO — no es una solución
+
+Sección: Crear con las manos
+Cerámica inicial | Martes · 18:00 · Sala 1
+Modelá una pieza pequeña y conocé las herramientas básicas. No necesitás experiencia.
+Materiales: delantal y una toalla pequeña.
+Encuadernación | Jueves · 18:30 · Sala 2
+Armá un cuaderno con tapas de cartón y costura sencilla.
+Materiales: cartón reutilizado y diez hojas.
+
+Sección: Explorar el barrio
+Fotografía a pie | Sábado · 10:00 · Punto de encuentro: entrada del centro cultural
+Recorré la plaza y practicá encuadres con la cámara de tu teléfono.
+Materiales: teléfono cargado y calzado cómodo.
+Huerta urbana | Sábado · 11:30 · Patio
+Prepará un almácigo y aprendé a cuidar los primeros brotes.
+Materiales: una maceta pequeña y guantes.
+
+Sección: Cómo inscribirse (id: inscripcion)
+1. Elegí un taller del catálogo.
+2. Escribí a talleres@example.com indicando el nombre del taller.
+3. Esperá la confirmación de tu plaza.
+Nota: Si necesitás acceso sin escalones, avisá al inscribirte para preparar la sala.
+Enlace de contacto: mailto:talleres@example.com
+
+Pie: Centro cultural del barrio · Programación de noviembre de 2026

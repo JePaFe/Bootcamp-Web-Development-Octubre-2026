@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #173b61;
+  background-color: #fff8e7;
+}
+
+body {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+a {
+  color: #173b61;
+}
+
+/* Agregá debajo las reglas que construyas durante la clase. */
+.prestamo {
+  width: 100%;
+  max-width: 500px;
+  min-height: 150px;
+  background-color: #ffffff;
+  border: 2px solid #173b61;
+  padding: 16px;
+  margin: 16px;
+  overflow: hidden;
+}
+
+.prestamo h2 {
+  margin: 0 0 12px;
+}
+
+.prestamo p {
+  margin: 0 0 12px;
+}
+
+#condiciones {
+  border: 1px solid #173b61;
+  padding: 16px;
+  margin: 0 0 24px;
+}

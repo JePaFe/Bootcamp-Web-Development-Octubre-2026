@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #173b61;
+  background-color: #fff8e7;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+a {
+  color: #173b61;
+}
+
+/* Agregá debajo las reglas que construyas durante la clase. */
+.aviso {
+  background-color: #ffedaa;
+  padding: 16px;
+  border: 2px solid #173b61;
+  margin: 16px;
+}
+
+.aviso h2,
+.aviso p {
+  margin: 0 0 12px;
+  /* margin-top: 0;
+  margin-bottom: 12px; */
+}
+
+/* .aviso p {
+  margin: 0 0 12px;
+} */
+
+.tarjeta {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 2px solid #173b61;
+  margin: 0 0 24px;
+}
+
+.tarjeta h3,
+.tarjeta p {
+  margin: 0 0 12px;
+}
+
+.tarjeta .horario {
+  font-weight: 700;
+}
+
+.seccion {
+  margin: 16px;
+}
+
+.tarjeta {
+  width: 100%;
+  max-width: 560px;
+  min-height: 240px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.aviso {
+  margin: 0 0 24px;
+}
+
+.seccion {
+  padding: 20px;
+  border: 1px solid #173b61;
+  margin: 0 0 24px;
+  background-color: #e7f0fa;
+}
+
+.seccion h2 {
+  margin: 0 0 16px;
+}
+
+header {
+  padding: 16px;
+}
+
+header h1 {
+  margin: 0 0 12px;
+}
+
+header p {
+  margin: 0;
+}
+
+.inscripcion {
+  background-color: #ffffff;
+}
+
+.inscripcion ol {
+  padding-left: 24px;
+  margin: 0 0 16px;
+}
+
+.nota {
+  border: 2px solid #173b61;
+  padding: 16px;
+  background-color: #ffedaa;
+  margin: 0 0 16px;
+}
+
+footer {
+  padding: 16px;
+  border-top: 2px solid #173b61;
+}
+
+footer p {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header, footer {
+  background-color: #e7f0fa;
+}
