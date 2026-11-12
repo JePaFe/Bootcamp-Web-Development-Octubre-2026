@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Biblioteca Sur</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body id="inicio">
+    <header class="cabecera">
+      <a href="#inicio">Biblioteca Sur</a>
+      <nav aria-label="Principal"><a href="#catalogo">Talleres</a></nav>
+      <div class="acciones">
+        <a href="#inscripcion">Inscripción</a>
+        <a href="#prestamos">Préstamos</a>
+      </div>
+    </header>
+    <main>
+      <section aria-labelledby="catalogo">
+        <h1 id="catalogo">Talleres</h1>
+        <div class="talleres">
+          <article class="taller">
+            <h2>Fanzines</h2>
+            <p>Armá una publicación de ocho páginas con papel reutilizado.</p>
+          </article>
+          <article class="taller">
+            <h2>Lectura</h2>
+            <p>Traé un cuento.</p>
+          </article>
+          <article class="taller">
+            <h2>Encuadernación</h2>
+            <p>Cosé un cuaderno.</p>
+          </article>
+          <article class="taller">
+            <h2>Fotografía</h2>
+            <p>
+              Explorá el archivo familiar y armá una serie de imágenes con un
+              hilo común.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section aria-labelledby="informacion">
+        <h2 id="informacion">Servicios de la biblioteca</h2>
+        <div class="servicios">
+          <article class="prestamos" id="prestamos">
+            <h3>Préstamos</h3>
+            <p>
+              Podés retirar hasta tres libros durante dos semanas. Traé tu
+              carnet para registrar la salida.
+            </p>
+            <p>
+              Si necesitás más tiempo, pedí una renovación antes de la fecha de
+              devolución. Algunos títulos tienen lista de espera.
+            </p>
+          </article>
+          <aside class="inscripcion" id="inscripcion">
+            <h3>Inscripción</h3>
+            <p>Martes y jueves.</p>
+          </aside>
+        </div>
+      </section>
+      <section aria-labelledby="recomendaciones">
+        <h2 id="recomendaciones">Lecturas recomendadas</h2>
+        <div class="lecturas">
+          <article class="lectura">
+            <h3>La plaza</h3>
+            <p>Un cuento breve sobre una plaza.</p>
+            <div class="ficha-prestamo">
+              <p>Sala infantil</p>
+              <a class="boton" href="#prestamos">Ver préstamo</a>
+            </div>
+          </article>
+          <article class="lectura">
+            <h3>Historias del río</h3>
+            <p>
+              Una colección de relatos sobre los oficios del río, las familias
+              que cruzaban en bote y las historias que quedaron en sus orillas.
+              Incluye fotos y mapas para seguir el recorrido.
+            </p>
+            <div class="ficha-prestamo">
+              <p>Sala general</p>
+              <a class="boton" href="#prestamos">Ver préstamo</a>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section aria-labelledby="buscar-libros">
+        <h2 id="buscar-libros">Buscar libros</h2>
+        <p>
+          Prueba de interfaz: podés escribir y elegir una opción. El botón no
+          ejecuta una búsqueda.
+        </p>
+        <div class="buscador-libros">
+          <input
+            type="search"
+            aria-label="Título o autor"
+            placeholder="Título o autor"
+          />
+          <select aria-label="Género">
+            <option>Todos los géneros</option>
+            <option>Cuento</option>
+            <option>Crónica</option>
+          </select>
+          <button type="button">Filtrar</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

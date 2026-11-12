@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 16px;
+  font:
+    1rem/1.5 system-ui,
+    sans-serif;
+  color: #18242b;
+  background: #f1f7f5;
+}
+
+.cabecera {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  background: #d7ebe6;
+}
+
+a {
+  color: #163d55;
+}
+
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h2 + p,
+h3 + p,
+p + p {
+  margin-top: 8px;
+}
+
+section {
+  margin-top: 24px;
+}
+
+section > h2 {
+  margin-bottom: 12px;
+}
+
+.acciones {
+  display: flex;
+  gap: 8px;
+  margin-left: auto;
+}
+
+.talleres {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 8px;
+  background: #cce2db;
+  min-height: 380px;
+  align-content: space-between;
+  align-items: flex-start;
+}
+
+.taller,
+.prestamos,
+.inscripcion {
+  padding: 12px;
+  background: #fff;
+}
+
+.taller {
+  flex-basis: 200px;
+  flex-shrink: 0;
+}
+
+.servicios {
+  display: flex;
+  gap: 16px;
+  background: #cce2db;
+}
+
+.prestamos {
+  flex-basis: 420px;
+  flex-grow: 1;
+}
+
+.inscripcion {
+  flex-basis: 150px;
+  align-self: flex-end;
+  flex-shrink: 0;
+}
+
+.lecturas {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 16px;
+}
+
+.lectura {
+  flex-basis: 250px;
+  padding: 12px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.boton {
+  display: inline-block;
+  padding: 4px 10px;
+  border: 1px solid currentColor;
+}
+
+.buscador-libros {
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.buscador-libros input,
+.buscador-libros select,
+.buscador-libros button {
+  font: inherit;
+  padding: 4px 8px;
+}
+
+.buscador-libros select {
+  width: 170px;
+}
+
+.buscador-libros button {
+  width: 104px;
+}
+
+.ficha-prestamo {
+  padding-top: 8px;
+  margin-top: auto;
+}
+
+.buscador-libros input {
+  flex-basis: 200px;
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.buscador-libros select,
+.buscador-libros button {
+  flex-shrink: 0;
+}

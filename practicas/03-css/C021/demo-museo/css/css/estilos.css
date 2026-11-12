@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 16px;
+  font:
+    1rem/1.5 system-ui,
+    sans-serif;
+  color: #18242b;
+  background: #f9f5ef;
+}
+
+.cabecera {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  background: #f0dfc6;
+}
+
+a {
+  color: #163d55;
+}
+
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h2 + p,
+h3 + p,
+p + p {
+  margin-top: 8px;
+}
+
+section {
+  margin-top: 24px;
+}
+
+section > h2 {
+  margin-bottom: 12px;
+}
+
+.reserva {
+  margin-left: auto;
+}
+
+.salas {
+  display: flex;
+  padding: 12px;
+  background: #e5dacd;
+  gap: 1em;
+  flex-wrap: wrap;
+  min-height: 380px;
+}
+
+.sala,
+.recorrido,
+.entradas {
+  padding: 12px;
+  background: #fff;
+}
+
+.sala {
+  /* flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 170px; */
+
+  /* flex: 1 0 170px; */
+
+  flex: 1;
+}
+
+.visita {
+  display: flex;
+  gap: 16px;
+  background: #e5dacd;
+}
+
+.recorrido {
+  flex-basis: 420px;
+}
+
+.entradas {
+  flex-basis: 140px;
+}
+
+.experiencias {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 16px;
+}
+
+.experiencia {
+  flex-basis: 240px;
+  padding: 12px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.boton {
+  display: inline-block;
+  padding: 4px 10px;
+  border: 1px solid currentColor;
+}
+
+.buscador-salas {
+  margin-top: 8px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.buscador-salas input,
+.buscador-salas select,
+.buscador-salas button {
+  font: inherit;
+  padding: 4px 8px;
+}
+
+.buscador-salas input {
+  width: 200px;
+  flex-basis: 180px;
+  flex-grow: 1;
+}
+
+.buscador-salas select {
+  width: 150px;
+}
+
+.buscador-salas button {
+  width: 96px;
+}
+
+.experiencia p {
+  margin-bottom: 8px;
+}
+
+.experiencia .boton {
+  margin-top: auto;
+  align-self: flex-start;
+}
+
+.buscador-salas select,
+.buscador-salas button {
+  flex-shrink: 0;
+}

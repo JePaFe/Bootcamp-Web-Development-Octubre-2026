@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Museo del Barrio</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body id="inicio">
+    <header class="cabecera">
+      <a href="#inicio">Museo del Barrio</a>
+      <nav aria-label="Principal"><a href="#catalogo">Salas</a></nav>
+      <a class="reserva" href="#entradas">Reservar</a>
+    </header>
+    <main>
+      <section aria-labelledby="catalogo">
+        <h1 id="catalogo">Salas</h1>
+        <div class="salas">
+          <article class="sala">
+            <h2>Grabados</h2>
+            <p>Estampas del siglo XIX.</p>
+          </article>
+          <article class="sala">
+            <h2>Archivo</h2>
+            <p>
+              Mapas, cartas y fotografías de quienes vivieron cerca de la
+              antigua estación.
+            </p>
+          </article>
+          <article class="sala">
+            <h2>Cerámica</h2>
+            <p>Piezas de los talleres del barrio.</p>
+          </article>
+          <article class="sala">
+            <h2>Patio</h2>
+            <p>Esculturas al aire libre.</p>
+          </article>
+        </div>
+      </section>
+      <section aria-labelledby="informacion">
+        <h2 id="informacion">Planificá tu visita</h2>
+        <div class="visita">
+          <article class="recorrido">
+            <h3>Recorrido</h3>
+            <p>
+              Empezá por el archivo y seguí por la sala de grabados. El patio
+              abre con buen tiempo.
+            </p>
+            <p>
+              La visita dura una hora. Hay bancos de descanso junto a la
+              entrada.
+            </p>
+          </article>
+          <aside class="entradas" id="entradas">
+            <h3>Entradas</h3>
+            <p>General 8 €</p>
+          </aside>
+        </div>
+      </section>
+      <section aria-labelledby="experiencias">
+        <h2 id="experiencias">Experiencias del museo</h2>
+        <div class="experiencias">
+          <article class="experiencia">
+            <h3>Patio sonoro</h3>
+            <p>Escuchá sonidos del barrio.</p>
+            <a class="boton" href="#entradas">Ver entradas</a>
+          </article>
+          <article class="experiencia">
+            <h3>Archivo abierto</h3>
+            <p>
+              Recorré mapas, cartas y fotos de la antigua estación. Al final
+              podés escuchar testimonios y comparar cómo cambiaron las calles
+              del barrio.
+            </p>
+            <a class="boton" href="#entradas">Ver entradas</a>
+          </article>
+        </div>
+      </section>
+      <section aria-labelledby="buscar-salas">
+        <h2 id="buscar-salas">Buscar salas</h2>
+        <p>
+          Prueba de interfaz: podés escribir y elegir una opción. El botón no
+          ejecuta una búsqueda.
+        </p>
+        <div class="buscador-salas">
+          <input
+            type="search"
+            aria-label="Nombre de sala"
+            placeholder="Nombre de sala"
+          />
+          <select aria-label="Ubicación de la sala">
+            <option>Todas las salas</option>
+            <option>Interior</option>
+            <option>Exterior</option>
+          </select>
+          <button type="button">Buscar</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
