@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: #111827;
+  color: #f8eedf;
+  font:
+    1rem/1.5 system-ui,
+    sans-serif;
+}
+header,
+main,
+footer {
+  width: 92%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+header {
+  padding: 36px 0 22px;
+  border-bottom: 1px solid #8192a7;
+}
+header p {
+  color: #f6c77c;
+  font-weight: bold;
+}
+h1 {
+  margin: 0;
+  font:
+    bold 3.5rem/1 Georgia,
+    serif;
+}
+h2,
+p {
+  margin: 0 0 8px;
+}
+main {
+  padding: 20px 0;
+}
+footer {
+  color: #cbd5e1;
+  padding: 0 0 24px;
+}
+.destacada,
+.info,
+.panel {
+  padding: 20px;
+  border-radius: 12px;
+  color: #172339;
+}
+.destacada {
+  background: #f6c77c;
+}
+.destacada h2 {
+  font:
+    bold 2.5rem/1.04 Georgia,
+    serif;
+}
+.info {
+  background: #bbe0d9;
+}
+.panel {
+  background: #f8eedf;
+}
+.encuentro {
+  background: #e1d9f5;
+}
+.etiqueta {
+  font-weight: bold;
+}
+.cartel {
+  max-width: 100%;
+  border-radius: 8px;
+}
+.chips p {
+  background: #172339;
+  color: #fff;
+  border-radius: 6px;
+  padding: 5px 9px;
+}
+
+/* Composición */
+.plano {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 12px;
+
+  grid-template-areas:
+    "principal visita"
+    "agenda encuentro";
+}
+
+.destacada {
+  grid-area: principal;
+}
+
+.info {
+  grid-area: visita;
+}
+
+.programa {
+  grid-area: agenda;
+}
+
+.encuentro {
+  grid-area: encuentro;
+}
+
+/* Composición de la película */
+
+/* .pelicula {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    grid-template-areas: "cartel ficha";
+}
+
+.cartel {
+  grid-area: cartel;
+}
+
+.ficha {
+  grid-area: ficha;
+} */
+
+/* --- */
+
+.pelicula {
+  display: flex;
+  gap: 10px;
+}
+
+.chips {
+  display: flex;
+  gap: 10px;
+}
+
+/* .chips {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+} */
+
+.agenda {
+  display: grid;
+  grid-template-columns: 3.5em 1fr;
+}
