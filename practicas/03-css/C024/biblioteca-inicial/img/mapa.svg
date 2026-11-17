@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="320" viewBox="0 0 960 320">
+  <rect width="960" height="320" fill="#e2f2e3"/>
+  <path d="M790 0 Q680 160 835 320" fill="none" stroke="#3386a7" stroke-width="68"/>
+  <path d="M175 105 L460 205 L750 165" fill="none" stroke="#20563f" stroke-width="10" stroke-dasharray="16 10"/>
+  <circle cx="175" cy="105" r="52" fill="#90bd67"/>
+  <text x="130" y="112" font-size="30">Plaza</text>
+  <text x="820" y="100" font-size="30">Río</text>
+</svg>
