@@ -1,0 +1,145 @@
+/* Base de lectura. Distribución ya preparada; el alumnado añade efectos por etapas. */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: system-ui, sans-serif;
+  color: #193124;
+  background: #f5f8ef;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+a {
+  color: #175236;
+}
+input,
+textarea,
+button {
+  font: inherit;
+}
+/* Taller C025: agregar estados, efectos y adaptación de iframe. */
+.marco {
+  width: 92%;
+  max-width: 48rem;
+  margin: auto;
+}
+header,
+main,
+footer,
+section {
+  padding: 1rem 0;
+}
+.tarjeta {
+  padding: 1rem;
+  border: 1px solid #899d8c;
+  background: white;
+}
+
+:focus-visible {
+  outline: 3px solid #235891;
+  outline-offset: 3px;
+}
+
+/* .tarjeta {
+  outline: 8px solid magenta;
+  outline-offset: -8px;
+} */
+
+.boton {
+  width: 200px;
+  display: inline-block;
+  padding: 0.6rem 1rem;
+  background: #175236;
+  color: white;
+  /* transition: background-color .5s ease, color 1s linear, width 2s ease; */
+}
+
+/* .boton:hover,
+.boton:focus-visible {
+  width: 400px;
+  background-color: #243f72;
+  color: red;
+} */
+
+/* .tarjeta:hover {
+  background-color: #e5f1df;
+  transition: background-color 0.35s ease 1s;
+} */
+
+/* .boton:active {
+  background-color: #243f72;
+  color: red;
+  transition: background-color 0.5s ease, color 1s linear;
+} */
+
+.tarjeta:hover {
+  /* transform: translateY(-50px); */
+  /* transform: scale(1.2); */
+  /* transform: rotate(500deg); */
+  /* transition: transform 2s ease; */
+}
+
+/* .boton:hover,
+.boton:focus-visible {
+  transform: translateX(2px);
+  background-color: #243f72;
+  transition: transform 0.15s ease, background-color 0.15s ease;
+} */
+
+@keyframes entrada {
+  from {
+    opacity: 0.4;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes aviso-entrada {
+  0% {
+    opacity: 0.4;
+    transform: translateX(-28px);
+  }
+  50% {
+    opacity: 0.8;
+    transform: translateX(14px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.aviso {
+  /* animation-name: entrada;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 0s; 
+  animation-iteration-count: infinite;
+  animation-direction: alternate; */
+
+  animation: aviso-entrada 2s ease infinite alternate;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.video {
+  aspect-ratio: 16 / 9;
+}
+
+.mapa {
+  aspect-ratio: 4 / 3;
+}
