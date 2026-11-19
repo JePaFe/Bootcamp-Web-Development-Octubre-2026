@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contacto · Casa Semilla</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <header class="marco cabecera">
+      <p><strong>Casa Semilla</strong> · tienda ficticia</p>
+      <nav aria-label="Principal">
+        <ul>
+          <li>
+            <a href="index.html">Inicio</a>
+          </li>
+          <li>
+            <a href="productos.html">Productos</a>
+          </li>
+          <li>
+            <a href="contacto.html" aria-current="page">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="marco">
+      <h1>Contacto</h1>
+      <p>
+        Preguntá por nuestros artículos de huerta. Pasaje del Sol 24 es una
+        dirección inventada.
+      </p>
+      <div class="contacto">
+        <form class="panel" action="contacto.html" method="get">
+          <h2>Consulta de práctica</h2>
+          <p>
+            Usá datos inventados. Esta demo valida y recarga la página con los
+            valores en la URL; no envía mensajes.
+          </p>
+          <label for="nombre">Nombre (obligatorio)</label>
+          <input id="nombre" name="nombre" required />
+          <label for="correo">Correo (obligatorio)</label>
+          <input id="correo" name="correo" type="email" required />
+          <label for="mensaje">Mensaje (obligatorio)</label>
+          <textarea maxlength="100" minlength="5" id="mensaje" name="mensaje" rows="5" required></textarea>
+          <button type="submit">Probar consulta</button>
+        </form>
+        <section class="panel">
+          <h2>Mapa de ejemplo</h2>
+          <iframe
+            class="mapa"
+            width="600"
+            height="450"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=-3.710%2C40.410%2C-3.690%2C40.420&amp;layer=mapnik"
+            title="Mapa de ejemplo del centro de Madrid, sin local comercial real"
+            loading="lazy"
+          >
+          </iframe>
+          <p>
+            La tienda es ficticia y no tiene sede aquí.
+            <a href="https://www.openstreetmap.org/#map=15/40.415/-3.700"
+              >Abrir el mapa de ejemplo</a
+            >. Zona de referencia: centro de Madrid.
+          </p>
+        </section>
+      </div>
+    </main>
+    <footer class="marco">
+      <p>Casa Semilla · Práctica de HTML/CSS. Sin ventas ni envíos reales.</p>
+    </footer>
+  </body>
+</html>
